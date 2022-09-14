@@ -15,9 +15,9 @@ body {
   color: var(--primary-text-color);
 }
 
-/* * {
-  outline: 1px solid #6a0001;
-} */
+* {
+  outline: 1px solid #9a1115;
+}
 
 /* Containers & Sections */
 
@@ -192,6 +192,9 @@ body {
 .image {
   display: block;
 }
+.about.section {
+  padding-top: 0;
+}
 
 /* Team Section */
 
@@ -205,6 +208,7 @@ body {
 }
 .member-spec {
   margin: 0;
+  padding-bottom: 30px;
   font-weight: 400;
   color: var(--secondary-text-color);
 }
@@ -217,6 +221,10 @@ body {
 }
 .team {
   background-color: var(--accent-bg-color);
+}
+.team-list .item {
+  background-color: var(--primary-bg-color);
+  border-radius: 4px;
 }
 
 /* Footer */
