@@ -15,9 +15,9 @@ body {
   color: var(--primary-text-color);
 }
 
-* {
+/* * {
   outline: 1px solid #9a1115;
-}
+} */
 
 /* Containers & Sections */
 
@@ -306,12 +306,12 @@ body {
 .tile-name {
   margin-top: 20px;
   margin-bottom: 0;
-  padding-left: 24px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.portfolio-tiles .item {
+.tile {
+  padding-left: 24px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
@@ -320,7 +320,6 @@ body {
   margin-top: 4px;
   margin-bottom: 0;
   padding-bottom: 20px;
-  padding-left: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
